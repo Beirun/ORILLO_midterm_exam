@@ -23,12 +23,9 @@ function updateTask(id: number, task: Task): void {
     tasks[id] = task;
 }
 
-// delete a task by id
+// delete a task
 function deleteTask(id: number): void {
-    const index = tasks.findIndex(task => task.id === id);
-    if (index !== -1) {
-        tasks.splice(index, 1);
-    }
+    tasks.splice(id, 1); 
 }
 
 // test the functions
