@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+// Use proper type for tasks array
 var tasks = [];
 // add a new task
 function addTask(task) {
